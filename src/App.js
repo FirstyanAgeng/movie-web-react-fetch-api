@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Search from "./styles/search.svg";
 import MovieCard from "./components/MovieCard";
 
-const API_URL = "http://www.omdbapi.com?apikey=93ac8b6f";
+const API_URL = "https://www.omdbapi.com?apikey=93ac8b6f";
 // const movie1 = {
 //   Title: "Superman/Batman: Apocalypse",
 //   Year: "2010",
@@ -32,7 +32,7 @@ const App = () => {
   return (
     <div className="app">
       {/* //Judul */}
-      <h1>MovieLand</h1>;{/* pencarian */}
+      <h1>MOVIE WEB dengan React</h1>;{/* pencarian */}
       <div className="search">
         <input
           placeholder="Search for movies"
